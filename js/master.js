@@ -5,7 +5,7 @@ console.log('Hello world!')
 const userPromptKM = prompt('Quanti km devi percorrere?');
 
 // trasformo il risultato stringa in numero
-const toTravelKM = parseFloat(userKM);
+const toTravelKM = Number(userKM);
 
 // stampo il numero di KM che deve percorrere l'utente
 console.log(`L'utente deve percorrere ${toTravelKM} KM.`);
@@ -15,7 +15,7 @@ console.log(`L'utente deve percorrere ${toTravelKM} KM.`);
 const userPromptAge = prompt('Quanti anni hai?');
 
 // trasformo il risultato stringa in numero
-const userAge = parseInt(userPromptAge)
+const userAge = Number(userPromptAge)
 
 // stampo il numero età che inserisce l'utente
 console.log(`L'utente ha ${userAge} anni.`);
