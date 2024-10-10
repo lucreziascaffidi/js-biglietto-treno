@@ -5,7 +5,7 @@ console.log('Hello world!')
 const userPromptKM = prompt('Quanti km devi percorrere?');
 
 // trasformo il risultato stringa in numero
-const toTravelKM = Number(userKM);
+const toTravelKM = Number(userPromptKM);
 
 // stampo il numero di KM che deve percorrere l'utente
 console.log(`L'utente deve percorrere ${toTravelKM} KM.`);
